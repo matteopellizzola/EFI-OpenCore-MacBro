@@ -469,8 +469,6 @@
 				<string>run-efi-updater</string>
 			</array>
 		</dict>
-		<key>LegacyEnable</key>
-		<false/>
 		<key>LegacyOverwrite</key>
 		<false/>
 		<key>LegacySchema</key>
@@ -594,6 +592,8 @@
 				<string>OpenCanopy.efi</string>
 				<key>Arguments</key>
 				<string></string>
+				<key>LoadEarly</key>
+				<false/>
 				<key>Comment</key>
 				<string>OpenCanopy.efi</string>
 			</dict>
@@ -604,6 +604,8 @@
 				<string>OpenHfsPlus.efi</string>
 				<key>Arguments</key>
 				<string></string>
+				<key>LoadEarly</key>
+				<false/>
 				<key>Comment</key>
 				<string>OpenHfsPlus.efi</string>
 			</dict>
@@ -614,6 +616,8 @@
 				<string>OpenRuntime.efi</string>
 				<key>Arguments</key>
 				<string></string>
+				<key>LoadEarly</key>
+				<false/>
 				<key>Comment</key>
 				<string>OpenRuntime.efi</string>
 			</dict>
@@ -624,6 +628,8 @@
 				<string>ToggleSipEntry.efi</string>
 				<key>Arguments</key>
 				<string></string>
+				<key>LoadEarly</key>
+				<false/>
 				<key>Comment</key>
 				<string>ToggleSipEntry.efi</string>
 			</dict>
@@ -634,6 +640,8 @@
 				<string>ResetNvramEntry.efi</string>
 				<key>Arguments</key>
 				<string></string>
+				<key>LoadEarly</key>
+				<false/>
 				<key>Comment</key>
 				<string>ResetNvramEntry.efi</string>
 			</dict>
